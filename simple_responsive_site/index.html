@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Service Shop</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a href="#top" class="logo">Digital Service Shop</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#deals">Deals</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tagline">Simple digital products in one place</p>
+        <h1>Fast, clean and responsive online service page</h1>
+        <p>
+          This website presents online subscriptions and digital items with a modern layout,
+          mobile-friendly navigation, product cards, FAQ section and clear call-to-action buttons.
+        </p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">View Services</a>
+          <a href="#contact" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro" id="services">
+      <div class="section-title">
+        <p class="tagline">Our services</p>
+        <h2>Popular digital products</h2>
+      </div>
+      <div class="service-grid">
+        <article class="card">
+          <h3>Streaming Accounts</h3>
+          <p>Access to entertainment platforms with clear support and simple instructions.</p>
+          <a href="#contact">Ask details</a>
+        </article>
+        <article class="card">
+          <h3>Music Premium</h3>
+          <p>Music service options for personal use, study time and daily listening.</p>
+          <a href="#contact">Ask details</a>
+        </article>
+        <article class="card">
+          <h3>Gaming Extras</h3>
+          <p>Digital gaming items, boosts and community features for online users.</p>
+          <a href="#contact">Ask details</a>
+        </article>
+        <article class="card">
+          <h3>Creative Tools</h3>
+          <p>Useful digital tools for design, editing, study and content creation.</p>
+          <a href="#contact">Ask details</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="parallax">
+      <div>
+        <h2>Quick service, simple layout, easy navigation</h2>
+        <p>The parallax-style banner adds a visual break without making the site complicated.</p>
+      </div>
+    </section>
+
+    <section class="section steps" id="how-it-works">
+      <div class="section-title">
+        <p class="tagline">Process</p>
+        <h2>How it works</h2>
+      </div>
+      <div class="step-row">
+        <div class="step-box">
+          <span>1</span>
+          <h3>Choose</h3>
+          <p>Select the service you need from the cards.</p>
+        </div>
+        <div class="step-box">
+          <span>2</span>
+          <h3>Message</h3>
+          <p>Use the contact section to ask for availability.</p>
+        </div>
+        <div class="step-box">
+          <span>3</span>
+          <h3>Receive</h3>
+          <p>Get the digital product details after confirmation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section deals" id="deals">
+      <div class="section-title">
+        <p class="tagline">Deals</p>
+        <h2>Featured offers</h2>
+      </div>
+      <div class="deal-grid">
+        <article class="deal-card">
+          <div class="deal-image image-one"></div>
+          <div class="deal-body">
+            <h3>Starter Pack</h3>
+            <p>Good for one user who wants a simple digital service.</p>
+            <button class="btn btn-primary">Learn More</button>
+          </div>
+        </article>
+        <article class="deal-card">
+          <div class="deal-image image-two"></div>
+          <div class="deal-body">
+            <h3>Student Pack</h3>
+            <p>Useful for study, entertainment and daily online use.</p>
+            <button class="btn btn-primary">Learn More</button>
+          </div>
+        </article>
+        <article class="deal-card">
+          <div class="deal-image image-three"></div>
+          <div class="deal-body">
+            <h3>Premium Pack</h3>
+            <p>Best for users who want more features and support.</p>
+            <button class="btn btn-primary">Learn More</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-title">
+        <p class="tagline">Questions</p>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Is this website responsive?</summary>
+          <p>Yes. The layout changes for smaller screens using CSS media queries.</p>
+        </details>
+        <details>
+          <summary>Where is CSS Grid used?</summary>
+          <p>CSS Grid is used in the service cards and featured deals sections.</p>
+        </details>
+        <details>
+          <summary>Where is Flexbox used?</summary>
+          <p>Flexbox is used in the navigation, hero buttons and process step row.</p>
+        </details>
+        <details>
+          <summary>Can this website be deployed?</summary>
+          <p>Yes. Upload the files to GitHub and enable GitHub Pages from repository settings.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box">
+        <div>
+          <p class="tagline">Contact</p>
+          <h2>Need a digital service?</h2>
+          <p>Send a message and mention which service or package you want to know more about.</p>
+        </div>
+        <a href="mailto:example@email.com" class="btn btn-primary">Email Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Digital Service Shop. Simple course project website.</p>
+    <div class="footer-links">
+      <a href="#top">Top</a>
+      <a href="#services">Services</a>
+      <a href="#faq">FAQ</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
